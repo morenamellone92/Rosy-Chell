@@ -41,34 +41,11 @@
     margin-right: 10px;
     display: none;
   }
-  
-  #galleria{
-      width: 30%;
-      margin: 0 auto;
-  }
-  
-  .immagine{
-      display: inline-block;
-      width: 14%;
-      margin: 4%;
-  }
-  
-  #icon{
-    width: 10%;
-    margin: 8% 4%;
-  }
-  
-  .galleria{
-    width: 40%;
-    margin: 0 auto;
-  }
+
+
   
   @media only screen and (max-width: 960px){
   
-    html{
-      background-attachment: fixed;
-      height: 100%;
-    }
   
     #iconmenu{
       height: 40%;
@@ -80,26 +57,16 @@
       display: none;
     }
   
-    #testo_footer{
-      margin: 0 auto;
-      text-align: center;
-      width: 50%;
-      font-size: 12px;
-    }
-  
     header{
       margin: 0%;
       padding: 0%;
       text-align: center;
-      height: 100%;
+      height: auto;
+      position: fixed;
       width: 100%;
-      z-index: -1;
+      z-index: 999;
     }
-  
-    .galleria{
-      width: 60%;
-      margin: 0 auto;
-    }
+ 
   
     .mobile_navbar{
       z-index: 0;
@@ -111,46 +78,10 @@
       transition: all 0.5s ease-in-out;
       background-color: #EEEEEE;
     }
-  
-    #logo_menu{
-      margin: 6% auto 0 auto;
-      text-align: center;
-      width: 50%;
-      display: block;
-    }
-  
-    #footer{
-      background: #EEEEEE;
-      margin-top: 3%;
-      padding: 0px;
-    }
-  
-    #logocompleto{
-      padding-top: 5%;
-      display: table-cell;
-       align-items: center;
-      justify-content: center;
-      width: 50%;
-      margin: 5% auto;
-      text-align: center;
-    }
-  
-  
-    #testo_footer{
-      margin: 5% auto 5% auto;
-      text-align: center;
-      width: 60%;
-      padding-bottom: 3%;
-    }
-    }
-  
-    #social_footer{
-      width: 16%;
-      margin: 2%;
-    }
+ 
   
   #logo{
-    height: 50%;
+    font-size: 16px;
     margin-left: 2%;
   }
   
@@ -163,12 +94,11 @@
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in-out;
-    background-color: #EEEEEE;
+    background: linear-gradient(180deg, rgba(177,213,251,1) 0%, rgba(0,124,255,1) 100%);
   }
   
   #sezioni_mobile{
     font-family: 'Comfortaa', cursive;
-    background-color: #EEEEEE;
     /* display:block= un div sotto l'altro ---- display:flex= uno affianco all'altro */
     display: block;
     font-size: 22px;
@@ -180,6 +110,10 @@
   }
   
   .sezione_mobile{
+    font-family: Raleway;
+    font-weight: 600px;
+    text-transform: uppercase;
+    font-size: 36px;
     z-index: 999;
     width: 200px;
     height: 100px;
@@ -188,44 +122,12 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #b3535f;
+    color: #000000;
   }
   
   .sezione_mobile:hover{
     margin-top: auto;
-    background-color: #d2d7ce;
   }
+}
   
-  #corrente_mobile{
-    box-shadow: 0 6px 0 #22799a;
-    background-color: #efeae4;
-    border-radius: 8px;
-  }
-  
-  
-  /* footer */
-  #footer{
-    background: #EEEEEE;
-      margin-top: 3%;
-      padding: 0px;
-  }
-
-
- #logocompleto{
-      padding-top: 5%;
-      display: table-cell;
-       align-items: center;
-      justify-content: center;
-      width: 50%;
-      margin: 5% auto;
-      text-align: center;
-    }
-  
-  
-    #testo_footer{
-      margin: 5% auto 5% auto;
-      text-align: center;
-      width: 60%;
-      padding-bottom: 3%;
-    }
   

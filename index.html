@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="header.css">
 
+    <script src="script.js"></script>
+
+
 
     <title>Document</title>
 </head>
@@ -14,13 +17,13 @@
 
     <header>
         <div class="navbar" id="navbar">
-         <p  id="logo"><b>ROSE CHELL </b>  | MAKE UP ARTIST</p>
+         <p  id="logo"><b>ROSE CHELL </b>| MAKE UP ARTIST</p>
           <div id="sezioni">
             <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
             <a class="page" id="page" href="../"><div class="sezione"><strong>about</strong></div></a>
             <a href="./portfolio"><div class="sezione"><strong>Portfolio</strong></div></a>
             <a href="./blog/"><div class="sezione"><strong>Blog</strong></div></a>
-            <img src="./assets/img/menu.svg" id="iconmenu" onclick="MenuMobile()">
+            <img src="./assets/img/icon-menu.png" id="iconmenu" onclick="MenuMobile()">
     
           </div>
         </div>
@@ -30,27 +33,7 @@
             <a class="page" href="../"><div class="sezione_mobile">about</div></a>
             <a href="./portfolio"><div class="sezione_mobile">Portfolio</div></a>
             <a href="./blog"><div class="sezione_mobile">Blog</div></a>
-            <img id="logo_menu"src="./assets/img/logo_completo.svg" id="logocompleto">
-            <div class="immagine" id="icon">
-            <a href="https://www.instagram.com/vocali_con_le_ali/">
-            <img class="preview" src="./assets/img/instagram.svg">
-            </a>
-            </div>
-            <div class="immagine" id="icon">
-            <a href="https://www.linkedin.com/in/morena-mellone-77301a200">
-            <img class="preview" src="./assets/img/linkedin.svg">
-            </a>
-            </div>
-            <div class="immagine" id="icon">
-            <a href=”mailto:mmellone92@gmail.com”>
-            <img class="preview" src="./assets/img/email.svg">
-            </a>
-            </div>
-            <div class="immagine" id="icon">
-            <a href="https://github.com/morenamellone92">
-              <img class="preview" src="./assets/img/github.svg">
-            </a>
-            </div>
+            
             </div>
           </div>
         </div>
@@ -146,9 +129,9 @@
 
 
            <div class="container-project">
-                    <h3 class="h3">blog</h3>
-                    <div class="blog">
-                    <div class="container-blog-1" id="container-blog-1">
+                <h3 class="h3">blog</h3>
+                <div class="blog">
+                    <div class="container-blog-1">
                         <button class="button-blog" id="button-blog-1" >nails</button>
                     </div>
                     <div class="container-blog-2" id="container-blog-2">
@@ -159,8 +142,6 @@
                     </div>
                 </div>
                     <h4 class="h4">latest articles</h4>
-
-              
 
 
                     <div class="service">
@@ -195,13 +176,53 @@
 
                     <div class="container-project">
 
-                    <p class="call-to-action-title">Do you need advice?</p>
-                    <p class="call-to-action-text">Write me an email for any of your projects!</p>
+                
+
+                    <section class="contacts">
+                      <div class="container contacts-content">
+                        <div class="contacts-about">
+                          <p class="call-to-action-title">Do you need advice?</p>
+                          <p class="call-to-action-text">Write me an email for any of your projects!</p>
+                        </div>
+                        <div class="contacts-form">
+                          <form action="">
+
+                          <div class="container-form">
+                            <label for="" class="input-label">Full Name</label>
+                            <input type="text" class="input-field" placeholder="Name Surname">
+                           </div>
+
+                           <div class="container-form">
+                            <label for="" class="input-label">E-mail</label>
+                            <input type="text" class="input-field" placeholder="example@email.com">
+                           </div>
+
+                           <div class="container-form">
+                            <label for="" class="input-label">Subject</label>
+                            <input type="text" class="input-field" placeholder="example subject">
+                          </div>
+
+                          <div class="container-form">
+                            <label for="" class="input-label">Message <span>optional</span></label>
+                            <textarea name="" id="" cols="30" rows="10" class="input-textarea" placeholder="write here"></textarea>
+                          </div>
+
+                          <div class="container-form">
+                            <button class="button">Send</button>
+                          </div>
+
+                          </form>
+                        </div>
+                      </div>
+                    </section>
                 </div>
         </div>
         </div>
+      
     </div>
 
-    <footer></footer>
+   
+
 </body>
+
 </html>

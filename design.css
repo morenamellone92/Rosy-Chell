@@ -13,6 +13,7 @@ a{
 }
 
 .h2{
+    z-index: 1;
     font-family: Trocchi;
     font-size: 120px;
     font-weight: 600;
@@ -28,43 +29,101 @@ a{
 }
 
 .h3{
-font-family: Trocchi;
-font-size: 90px;
-font-weight: 400;
-text-align: center;
-color: #644844;
-text-decoration-line: underline;
-margin-top: 128px;
-margin-bottom: 64px;
-padding-top: 8%;
+    font-family: Trocchi;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    color: #644844;
+    text-decoration-line: underline;
+    margin-top: 128px;
+    margin-bottom: 48px;
+    padding-top: 8%;
 }
 
 .h4{
-font-family: Trocchi;
-font-size: 64px;
-font-weight: 400;
-line-height: 83px;
-letter-spacing: 0em;
-text-align: center;
-color: #644844;
+    margin-top: 256px;
+    font-family: Trocchi;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #644844;
 }
 
 .p{
-font-family: Raleway;
-font-size: 32px;
-font-weight: 500;
-line-height: 36px;
-text-align: center;
-margin: 64px 20%;
-color: #1E1E1E;
-padding-top: 128px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    margin: 64px 20%;
+    color: #1E1E1E;
+    padding-top: 128px;
 }
 
 i{
     color: rgb(113, 113, 113);
 }
 
-.button{}
+.button{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: E3C0CF;
+    background-color: #644844;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-left: 100%;
+    margin-right: 0%;
+    text-align: end;
+}
 
-.container{}
+@media only screen and (max-width: 960px){
+
+    .h1{
+        font-size: 32px;
+        font-weight: 600;
+        padding: 16px;
+        }
+        
+        .h2{
+            font-size: 60px;
+            font-weight: 600;
+            width: 100%;
+            margin-top: 90vh;
+        }
+        
+        .h3{
+            font-family: Trocchi;
+            font-size: 48px;
+            font-weight: 400;
+            margin-top: 128px;
+            margin-bottom: 64px;
+            padding-top: 8%;
+        }
+        
+        .h4{
+            font-size: 36px;
+            font-weight: 400;
+            margin-top: 64px;
+        }
+        
+        .p{
+            font-size: 24px;
+            margin: 64px 20%;
+            padding-top: 128px;
+        }
+    
+        .button{
+            font-size:20px;
+            padding: 8px 12px;
+            text-transform: uppercase;
+            margin: 24px auto;      
+        }
+}
+
+
 
