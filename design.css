@@ -36,8 +36,14 @@ a{
     color: #644844;
     text-decoration-line: underline;
     margin-top: 128px;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-bottom: 48px;
     padding-top: 8%;
+}
+
+#h3-call-to-action{
+    text-decoration: none;
 }
 
 .h4{
@@ -57,7 +63,7 @@ a{
     font-weight: 500;
     line-height: 36px;
     text-align: center;
-    margin: 64px 20%;
+    margin: 0 20%;
     color: #1E1E1E;
     padding-top: 128px;
 }
@@ -70,15 +76,27 @@ i{
     font-size: 24px;
     color: #ffffff;
     background-color: E3C0CF;
-    background-color: #644844;
+    background-color: #007cff;
     border: none;
-    border-radius: 4px;
-    padding: 12px 16px;
+    border-radius: 16px;
+    padding: 16px 24px;
     text-transform: uppercase;
     margin-top: 32px;
     margin-left: 100%;
     margin-right: 0%;
     text-align: end;
+}
+#button-call-to-action{
+    margin: 64px auto;
+}
+
+.h2-container{
+    text-align: center;
+    font-size: 64px;
+    margin: 0 4%;
+    padding-top: 128px;
+    color: #644844;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 960px){
@@ -94,35 +112,51 @@ i{
             font-weight: 600;
             width: 100%;
             margin-top: 90vh;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+        .h2-container{
+            text-align: center;
+            font-size: 32px;
+            padding-top: 64px;
+            color: #644844;
+            text-transform: uppercase;
+          
         }
         
         .h3{
             font-family: Trocchi;
             font-size: 48px;
             font-weight: 400;
-            margin-top: 128px;
+            margin-top: 64px;
             margin-bottom: 64px;
             padding-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
         }
         
         .h4{
             font-size: 36px;
             font-weight: 400;
             margin-top: 64px;
+            margin-left: 4%;
+            margin-right: 4%;
         }
         
         .p{
-            font-size: 24px;
-            margin: 64px 20%;
-            padding-top: 128px;
+            font-size: 16px;
+            margin: 0 4%;
+            padding-top: 64px;
         }
     
         .button{
-            font-size:20px;
-            padding: 8px 12px;
+            font-size: 24px;
+            padding: 16px 20px;
             text-transform: uppercase;
             margin: 24px auto;      
         }
+
 }
 
 
