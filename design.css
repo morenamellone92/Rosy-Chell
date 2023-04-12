@@ -13,7 +13,7 @@ a{
 }
 
 .h2{
-    z-index: 1;
+    z-index: 0;
     font-family: Trocchi;
     font-size: 120px;
     font-weight: 600;
@@ -93,11 +93,13 @@ i{
 .h2-container{
     text-align: center;
     font-size: 64px;
-    margin: 0 4%;
+    margin: 1% 4%;
     padding-top: 128px;
     color: #644844;
     text-transform: uppercase;
 }
+
+
 
 @media only screen and (max-width: 960px){
 
