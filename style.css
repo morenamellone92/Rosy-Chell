@@ -256,6 +256,7 @@ p .p-footer{
     
     .container-background{
         background-image: url(assets/img/background-960.png);
+        background-repeat: no-repeat;
         width: 100%;
         background-size: cover;
         margin: 0 auto;
