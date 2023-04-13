@@ -246,13 +246,12 @@ p .p-footer{
     }
     
     .container-basic{
-        background-image: url(assets/img/background-960.png);
+        background-image: url(assets/img/background-fixed.jpg);
         background-attachment:fixed;
     }
     
     .container-background{
-        background-image: url(assets/img/background.jpg);
-      
+        background-image: url(assets/img/background-960.png);
         width: 100%;
         background-size: cover;
         margin: 0 auto;
@@ -435,11 +434,16 @@ p .p-footer{
     }
 }
 
+
+
 @media only screen and (max-width: 760px){
     
-    .container-basic{
+    .container-background{
         background-image: url(assets/img/background-760.jpg);
-        background-attachment:fixed;
+        width: 100%;
+        background-size: cover;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
