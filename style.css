@@ -246,7 +246,7 @@ p .p-footer{
     }
     
     .container-basic{
-        background-image: url(assets/img/background-fixed.jpg);
+        background-image: url(assets/img/background-960.png);
         background-attachment:fixed;
     }
     
@@ -433,8 +433,14 @@ p .p-footer{
         width: 100%;
         margin-bottom: 48px;
     }
+}
 
-
+@media only screen and (max-width: 760px){
+    
+    .container-basic{
+        background-image: url(assets/img/background-760.jpg);
+        background-attachment:fixed;
+    }
 }
 
 
