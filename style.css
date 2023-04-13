@@ -13,7 +13,7 @@
 
 .container-basic{
     background-image: url(assets/img/background-fixed.jpg);
-    background-attachment: inherit;
+    background-attachment: fixed;
 }
 
 .container-background{
@@ -114,14 +114,13 @@ p .p-footer{
 
 .container-blog-1, .container-blog-2, .container-blog-3{
     width: 25%;
-    margin: 3%;
+    margin: 3% ;
     border-radius: 8px;
     text-align: center;
-    max-width: 0 auto;
+    
     height: 600px;
     background-size: cover;
-    float: left;
-    display: block;
+    display: inline-block;
 
     
 }
@@ -184,12 +183,15 @@ p .p-footer{
 .input-label{
     font-size: 24px;
     font-weight: 600;
+    margin-top: 16px;
+    width: 100%;
     text-transform: uppercase;
 }
 
 .input-field, .input-textarea{
     margin-top: 16px;
     margin-left: 8px;
+    width: 100%;
     font-family: 'work sans', sans-serif;
     font-size: 18px;
     color: #d8d8d8;
@@ -212,19 +214,30 @@ p .p-footer{
 .container-form{
     display: inline-block;
     width: 40%;
+    margin-top: 24px;
 }
 
-.input-textarea{
-    height: 100px;
-    margin-bottom: 0px;
+#container-form-subject{
+    width: 80%;  
+}
+
+#container-form-message{
+    width: 80%;  
+}
+
+
+
+#input-textarea{
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 100%;
+    display: block;
 }
 
 .input-label span{
     font-size: 16px;
     text-transform: lowercase;
 }
-
-
 
 
 @media only screen and (max-width: 960px){
@@ -352,26 +365,27 @@ p .p-footer{
     }
     
     .input-label{
-        width: 100%;
+        width: 60%;
         display: block;
-        margin:  24px auto 0 auto;
+        margin: 16px auto 0 auto;
         font-size: 24px;
         font-weight: 600;
         text-transform: uppercase;
     }
     
     .input-field, .input-textarea{
-        margin-top: 16px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 16px auto 0 auto;
         width: 100%;
-        display: block;
         font-family: 'work sans', sans-serif;
         font-size: 18px;
         color: #d8d8d8;
-       
         border: 2px solid #644844;
         border-radius: 4px;
+    }
+
+    textarea .input-textarea{
+        width: 100%;
+        margin: 0 auto;
     }
     
     .section{
@@ -380,16 +394,18 @@ p .p-footer{
     }
     
     .contacts-content{
-        text-align: center;
+        flex-direction: column; 
         width: 80%;
-        margin: 0 uto;
+        margin: 0 auto;
 
     }
     
     .container-form{
+        flex-direction: column;
         margin: 0 auto;
         display: flex;
         width: 100%;
+        margin-bottom: 48px;
     }
     
     .input-textarea{
@@ -397,20 +413,30 @@ p .p-footer{
         width: 80%;
         margin-bottom: 0px;
     }
+
+    .input-label{
+        font-size: 20px;
+    }
     
     .input-label span{
         font-size: 16px;
         text-transform: lowercase;
     }
 
-    .conracts-about{
+    .contacts-about{
         width: 100%;
         margin: 0 auto;
     }
 
-    .container-form{
+    #container-form-subject, #container-form-message{
+        flex-direction: column;
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
         margin-bottom: 48px;
     }
+
+
 }
 
 
