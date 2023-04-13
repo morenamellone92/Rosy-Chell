@@ -144,9 +144,11 @@ p .p-footer{
     margin-top: 50vh;
     padding: 16px 12px;
     border-radius: 8px;
-    width: 50%;
+    width: 60%;
     text-transform: uppercase;
     border: none;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #button-blog-1{
@@ -155,10 +157,12 @@ p .p-footer{
 
 #button-blog-2{
     background: linear-gradient(180deg, rgba(100,72,68,0.7) 100%, rgba(100,72,68,0.7) 100%);
+    color: #ffffff;
 }
 
 #button-blog-3{
     background: linear-gradient(180deg,rgba(0,124,255,0.7) 100%, rgba(0,124,255,0.7) 100%);
+    color: #ffffff;
 }
 
 .call-to-action-title{
@@ -345,7 +349,7 @@ p .p-footer{
     }
     
     .button-blog{
-        margin-top: 10vh;
+        margin-top: 15vh;
         width: 80%;
         font-size: 20px;
     }
