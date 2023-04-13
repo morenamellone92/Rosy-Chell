@@ -124,9 +124,7 @@ p .p-footer{
     
     height: 600px;
     background-size: cover;
-    display: inline-block;
-
-    
+    display: inline-block;  
 }
 
 .container-blog-1{
@@ -200,7 +198,7 @@ p .p-footer{
     width: 100%;
     font-family: 'work sans', sans-serif;
     font-size: 18px;
-    color: #d8d8d8;
+    color: #000000;
     padding: 12px 16px;
     border: 2px solid #644844;
     border-radius: 4px;
@@ -382,11 +380,6 @@ p .p-footer{
     .input-field, .input-textarea{
         margin: 16px auto 0 auto;
         width: 100%;
-        font-family: 'work sans', sans-serif;
-        font-size: 18px;
-        color: #d8d8d8;
-        border: 2px solid #644844;
-        border-radius: 4px;
     }
 
     textarea .input-textarea{
@@ -403,7 +396,6 @@ p .p-footer{
         flex-direction: column; 
         width: 80%;
         margin: 0 auto;
-
     }
     
     .container-form{
