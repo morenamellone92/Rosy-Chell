@@ -20,8 +20,8 @@ a{
     position: relative;
     width: 100%;
     margin-top: 90vh;
-    background: -webkit-linear-gradient( #b1d5fb, #007cff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient( #b1d5fb, #007cff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient( #b1d5fb, #00438b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( #b1d5fb, #00438b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -76,7 +76,7 @@ i{
     font-size: 24px;
     color: #ffffff;
     background-color: E3C0CF;
-    background-color: #007cff;
+    background-color: #00438b;
     border: none;
     border-radius: 16px;
     padding: 16px 24px;
