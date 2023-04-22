@@ -17,12 +17,14 @@
 
     <header>
         <div class="navbar" id="navbar">
-         <p  id="logo"><b>ROSY CHELL </b> &nbsp|  MAKE UP ARTIST</p>
+         <p id="logo"><b>ROSE CHELL </b> &nbsp|  MAKE UP ARTIST</p>
           <div id="sezioni">
             <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
-            <a class="sezione" id="page" href="#"><div class="sezione"><strong>About</strong></div></a>
-            <a href="#"><div class="sezione"><strong>Portfolio</strong></div></a>
-            <a href="#"><div class="sezione"><strong>Blog</strong></div></a>
+            <a class="page" id="page" href="#about"><div class="sezione"><strong>About</strong></div></a>
+            <a href="#portfolio"><div class="sezione"><strong>Portfolio</strong></div></a>
+            <a href="#blog"><div class="sezione"><strong>Blog</strong></div></a>
+            <a href="#contacts"><div class="sezione"><strong>Contacts</strong></div></a>
+
             <img src="./assets/img/icon-menu.png" id="iconmenu" onclick="MenuMobile()">
     
           </div>
@@ -30,10 +32,10 @@
     
         <div class="mobile_navbar" id="mobile_navbar">
           <div id="sezioni_mobile">
-            <a href="#"><div class="sezione_mobile">About</div></a>
-            <a href="#"><div class="sezione_mobile">Portfolio</div></a>
-            <a href="#"><div class="sezione_mobile">Blog</div></a>
-            
+            <a class="#about" href="../"><div class="sezione_mobile">about</div></a>
+            <a href="#portfolio"><div class="sezione_mobile">Portfolio</div></a>
+            <a href="#blog"><div class="sezione_mobile">Blog</div></a>
+            <a href="#contacts"><div class="sezione_mobile">Contacts</div></a>
             </div>
           </div>
         </div>
@@ -58,12 +60,13 @@
             <div class="container-basic">
 
              <div class="container-project">
+              <a name="about">
                 <div class="container-project-item">
                   <h2 class="h2-container"> let's take care of your face. <br> your hands. <br> your appearance.</h2>
 
                  <p class="p">Hi I'm Rose, makeup artist. enail art professional with more than 15 years experience. <br>
                   My life revolves around my work and my family, always trying to enhance the beauty that a woman can show to the whole world.</p>
-                    <button class="button" id="button-call-to-action">Contact me</button>
+                    <a href="#contacts"><button class="button" id="button-call-to-action">Contact me</button></a>
 
                  <h3 class="h3">service</h3>
 
@@ -106,16 +109,17 @@
                   <p class="p">Whether you are close or far from me, we will have the possibility of a cognitive call where your every need will be listened to, you will be the protagonist!</p>
                      <button class="button" id="button-call-to-action">Book a free consultation!</button>
                 </div>
+              </a>
                     <h3 class="h3">thet talk about me</h3>
                     <img src="assets/img/vogue.png" alt="" class="brand-img">
                     <img src="assets/img/glamour.png" alt="" class="brand-img">
                     <img src="assets/img/stylist.png" alt="" class="brand-img">
                     <img src="assets/img/elle.png" alt="" class="brand-img">
-                    <img src="assets/img/cosmopolitan.png" alt="" class="brand-img" id="brand-img">
-                    <img src="assets/img/tatler.png" alt="" class="brand-img" id="brand-img">
+                    <img src="assets/img/cosmopolitan.png" alt="" class="brand-img">
+                    <img src="assets/img/tatler.png" alt="" class="brand-img">
                 </div>
 
-
+                <a name="portfolio">
                 <div class="container-project">
                     <h3 class="h3">portfolio</h3>  
                     <img src="assets/img/photo1.jpg" alt="" class="gallery-50">
@@ -128,12 +132,13 @@
 
                     <h2 class="h2-container">your beauty has no boundaries.</h2>
                     <p class="p">Do you want to view my works? <br> Visit my gallery and find yourself in what most belongs to you!</p>
-                      <button class="button" id="button-call-to-action">Visit my gallery!</button>
+                    <a href="#portfolio"><button class="button" id="button-call-to-action">Visit my gallery!</button></a>
 
                 </div>
+                </a>
            
 
-
+          <a name="blog">
            <div class="container-project">
                 <h3 class="h3">blog</h3>
                 <div class="blog">
@@ -148,7 +153,7 @@
                     </div>
                     <h2 class="h2-container">The latest beauty trends just a click away</h2>
                     <p class="p">Do you want to know the latest news? <br>Visit my blog!</p>
-                       <button class="button" id="button-call-to-action">Book a free consultation!</button>
+                       <a href="#contacts"><button class="button" id="button-call-to-action">Book a free consultation!</button></a>
                 </div>
 
                     <div class="service">
@@ -157,8 +162,7 @@
                             <img class="service-item-img" src="assets/img/article1.jpg" alt="">
                              <div>
                               <p class="service-item-text-title">Trends 2023</p>
-                              <p class="service-item-text">The colors of the new
-                                spring-summer collections... <i>life style</i> </p>
+                              <p class="service-item-text">The trendy colors of summer 2023 <i> life style</i> </p>
                               </div>
                         </div>
     
@@ -182,7 +186,8 @@
 
                         
                     </div>
-
+          </a>
+          <a name="contacts">
                     <div class="container-project">
                     <section class="contacts">
                       <div class="container contacts-content">
@@ -213,6 +218,10 @@
                             <textarea cols="30" rows="10" class="input-field" id="input-textarea" placeholder="example subject"></textarea>
                           </div>
 
+
+
+                     
+
                           <div class="container-form">
                             <button class="button">Send</button>
                           </div>
@@ -222,6 +231,7 @@
                       </div>
                     </section>
                 </div>
+          </a>
          
 
         </div>
